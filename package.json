@@ -1,0 +1,21 @@
+{
+  "name": "postcss-kiss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "postcss-grid-kiss": "^1.4.1",
+    "postcss-loader": "^2.0.8",
+    "precss": "^2.0.0",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  }
+}

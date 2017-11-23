@@ -1,0 +1,20 @@
+body {
+	grid-kiss:
+		"+------------------------------+      "
+		"|           header ↑           | 120px"
+		"+------------------------------+      "
+		"                                      "
+		"+--150px---+  +----- auto -----+      "
+		"| .sidebar |  |      main      | auto "
+		"+----------+  +----------------+      "
+		"                                      "
+		"+------------------------------+      "
+		"|              ↓               |      "
+		"|         → footer ←           | 60px "
+		"+------------------------------+      "
+}
+
+header   { background: cyan; }
+.sidebar { background: lime; }
+main     { background: yellow; }
+footer   { background: pink; }
